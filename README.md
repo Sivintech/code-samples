@@ -1,2 +1,3 @@
 # code-samples
-Code Examples created by our engineers
+
+Code Examples created by Sivintech engineers.

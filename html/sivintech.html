@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SivinTech</title>
+    <link rel="stylesheet" href="normalize.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="animate.css"/>
+    <link rel="stylesheet" href="jquery-ui.css"/>
+    <script src="scripts/jquery-2.1.4.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/jquery-validate.js"></script>
+    <script src="scripts/jquery.transform2d.js"></script>
+    <script src="scripts/main.js"></script>
+
+</head>
+<video autoplay width='100%' height='100%' id="bgvid" loop>
+    <source src="video/Cloudytime.webm" type="video/webm">
+    <source src="/video/Cloudytime.mp4" type="video/mp4">
+</video>
+<body>
+
+
+<img src="images/big-logo.png" alt="big-logo" class="big-logo"/>
+
+<div class="start-lots">
+    <img src="images/left-lots.png" alt="lots-left" id="left-lot"/>
+    <img src="images/right-lots.png" alt="lots-right" id="right-lot"/>
+</body>
+</div>
+
+
+<div class="page-wrap">
+    <div class="header">
+        <div class="center-row">
+            <img src="images/logo.png" alt="logo" class="main-logo" alt="2"/>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="center-row">
+            <div class="img-menu">
+            <div class="map-area">
+                <div class="menu-picture-one menu-picture-one-pos-one"  alt="1"></div>
+                <div class="menu-picture-one menu-picture-one-pos-two"  alt="1"></div>
+                 <img src="images/hexagon.png" alt="map" usemap="#map" id="map"/>
+                 <span class="menu-span-text">About Us</span>
+                 <map name="map" id="menu-map-one" data="1">
+                     <area data="area" shape="poly" coords="5, 49, 83, 0, 168, 50, 168, 50" class="about-block-id"/>
+                     <area data="area" shape="poly" coords="6, 144, 84, 190, 167, 143" class="about-block-id"/>
+                     <area data="area" shape="rect" coords="3, 51, 168, 143" class="about-block-id"/>
+            </map>
+            </div>
+
+            <div class="map-area-two">
+                <div class="menu-picture-one menu-picture-two-pos-one"  alt="2"></div>
+                <div class="menu-picture-one menu-picture-two-pos-two"  alt="2"></div>
+                <img src="images/hexagon-logo.png" alt="map-two" usemap="#map-two" id="map-two"/>
+                <map name="map-two" id="menu-map-two" data="2">
+                    <area data="area" shape="poly" coords="5, 49, 83, 0, 168, 50, 168, 50" class="logo-main"/>
+                    <area data="area" shape="poly" coords="6, 144, 84, 190, 167, 143"  class="logo-main"/>
+                    <area data="area" shape="rect" coords="3, 51, 168, 143" class="logo-main"/>
+                </map>
+                <div class="menu-picture-one menu-picture-three-pos-one"  alt="3"></div>
+                <div class="menu-picture-one menu-picture-three-pos-two"  alt="3"></div>
+                <img src="images/hexagon.png" alt="map-three" usemap="#map-three" id="map-three"/>
+                <span class="menu-span-text-tree">Technology</span>
+                <map name="map-three" id="menu-map-three" data="3">
+                    <area data="area" shape="poly" coords="5, 49, 83, 0, 168, 50, 168, 50" class="technology-block-id"/>
+                    <area data="area" shape="poly" coords="6, 144, 84, 190, 167, 143" class="technology-block-id"/>
+                    <area data="area" shape="rect" coords="3, 51, 168, 143" class="technology-block-id"/>
+                </map>
+                <div class="menu-picture-one menu-picture-four-pos-one"  alt="4"></div>
+                <div class="menu-picture-one menu-picture-four-pos-two"  alt="4"></div>
+                <img src="images/hexagon.png" alt="map-four" usemap="#map-four" id="map-four"/>
+                <span class="menu-span-text-four">Our Team</span>
+                <map name="map-four" id="menu-map-four" data="4">
+                    <area data="area" shape="poly" coords="5, 49, 83, 0, 168, 50, 168, 50" class="team-block-id"/>
+                    <area data="area" shape="poly" coords="6, 144, 84, 190, 167, 143" class="team-block-id"/>
+                    <area data="area" shape="rect" coords="3, 51, 168, 143" class="team-block-id"/>
+                </map>
+            </div>
+
+            <div class="map-area-tree">
+                <div class="menu-picture-one menu-picture-five-pos-one"  alt="5"></div>
+                <div class="menu-picture-one menu-picture-five-pos-two"  alt="5"></div>
+                <img src="images/hexagon.png" alt="map-five" usemap="#map-five" id="map-five"/>
+                <span class="menu-span-text-five">Feedback Form</span>
+                <map name="map-five" id="menu-map-five" data="5">
+                    <area data="area" shape="poly" coords="5, 49, 83, 0, 168, 50, 168, 50" class="feedback-block-id"/>
+                    <area data="area" shape="poly" coords="6, 144, 84, 190, 167, 143" class="feedback-block-id"/>
+                    <area data="area" shape="rect" coords="3, 51, 168, 143" class="feedback-block-id" />
+                </map>
+                <div class="menu-picture-one menu-picture-six-pos-one"  alt="6"></div>
+                <div class="menu-picture-one menu-picture-six-pos-two"  alt="6"></div>
+                <img src="images/hexagon.png" alt="map-six" usemap="#map-six" id="map-six"/>
+                <span class="menu-span-text-six">Contact Us</span>
+                <map name="map-six" id="menu-map-six" data="6">
+                    <area data="area" shape="poly" coords="5, 49, 83, 0, 168, 50, 168, 50" class="contact-block-id" />
+                    <area data="area" shape="poly" coords="6, 144, 84, 190, 167, 143" class="contact-block-id" />
+                    <area data="area" shape="rect" coords="3, 51, 168, 143" class="contact-block-id" />
+                </map>
+            </div>
+            </div>
+
+            <div class="right-content">
+                <img src="images/main-logo.png" alt="main-logo" class="right-main-logo"/>
+                <p class="main-slogan">Lorem ipsum dolor sit amet, consectetur adipisicing <elit></elit></p>
+                <img src="images/mac-book.png" alt="macbook" class="macpro"/>
+            </div>
+
+            <div class="about-block about-block-main">
+                <div class="left-picture">
+                    <img src="images/about-skysr.png" alt="skyscr" class="about-skyscr"/>
+                </div>
+                <div class="right-about-block">
+                    <h3 class="about-us-title">About Us</h3>
+                    <p class="about-us-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Accusamus ad consequuntur corporis, cumque delectus eius, error facere inventore ipsum magnam modi nesciunt quaerat
+                        quas quasi similique, sint ut vero voluptates. <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi dignissimos facere labore, non quod! Accusantium atque esse iusto nemo nisi numquam sed tempora ut? Fugit mollitia neque vitae voluptas!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span></p>
+                    <a href="#" class="about-read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="about-block contact-block">
+                <div class="map-block">
+                    <img src="images/map.png" alt="map" usemap="#Mapmain" class="main-map"/>
+                    <map name="Mapmain" id="Mapmain">
+                        <area alt="map" title="main-map" href="https://www.google.ru/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+7%D0%90,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C/@53.9076612,27.5496931,17z/data=!4m7!1m4!3m3!1s0x46dbcfecd2416b83:0xa4bc163d68eee29!2z0L_RgNC-0YHQvy4g0J_QvtCx0LXQtNC40YLQtdC70LXQuSA30JAsINCc0LjQvdGB0LosINCR0LXQu9Cw0YDRg9GB0Yw!3b1!3m1!1s0x46dbcfecd2416b83:0x0a4bc163d68eee29" shape="poly" coords="151,1,0,87,0,256,150,340,299,258,301,85" />
+                    </map>
+                </div>
+                <div class="contact-text">
+                    <h2>Contact Us</h2>
+                    <h3>CEO & Co-Founder</h3>
+                    <p class="cont-text">Looking for an innovative and technically
+                        proficient engineering team? We can help!
+                    </p>
+                    <p class="contact-email">E-Mail: sales@techspeclabs.com</p>
+                    <p>EMEA: +37 (0)52 9333 8978</p>
+                    <p>U.S.: +1 415 309 8794</p>
+                    <p class="contact-street">Pobeditely ave 7A Office 13</p>
+                    <p>Minsk, Belarus</p>
+                </div>
+            </div>
+            <div class="memb">
+            <div class="about-block team-block">
+                <div class="team-members">
+                    <img src="images/memb-photo.png" alt="yuri" usemap="#Map-yuri" class="memb-photo-one"/>
+                    <div class="map-picture-one map-picture-one-pos-one"  alt="1"></div>
+                    <div class="map-picture-one map-picture-one-pos-two"  alt="1"></div>
+                    <map name="Map-yuri" id="Map-yuri">
+                        <area alt="1" title="" href="#" shape="poly" coords="89,1,3,51,3,145,89,192,175,144,174,49" />
+                    </map>
+                    <img src="images/memb-photo.png" alt="photo" class="memb-photo" usemap="#Mapmemb-photo" />
+                    <div class="map-picture-two map-picture-two-pos-one"  alt="2"></div>
+                    <div class="map-picture-two map-picture-two-pos-two"  alt="2"></div>
+                    <map name="Mapmemb-photo" id="Mapmemb-photo">
+                        <area alt="2" title="" href="#" shape="poly" coords="64,2,2,35,1,107,62,139,124,106,124,35" />
+                    </map>
+
+                    <img src="images/svetlana.png" alt="svetlana" class="sv-photo" usemap="#map-sv-photo" />
+                    <div class="map-picture-two map-picture-three-pos-one"  alt="3"></div>
+                    <div class="map-picture-two map-picture-three-pos-two"  alt="3"></div>
+                    <map name="map-sv-photo" id="map-sv-photo">
+                        <area alt="3" title="" href="#" shape="poly" coords="61,0,2,36,1,106,61,140,123,103,124,36" />
+                    </map>
+                    <img src="images/member-two.png" alt="member-two" class="member-two-photo" usemap="#mapmember-two" />
+                    <div class="map-picture-two map-picture-four-pos-one"  alt="4"></div>
+                    <div class="map-picture-two map-picture-four-pos-two"  alt="4"></div>
+                    <map name="mapmember-two" id="mapmember-two">
+                        <area alt="4" title="" href="#" shape="poly" coords="64,0,2,34,2,106,64,140,124,107,124,37" />
+                    </map>
+                </div>
+                <div class="team-description">
+                    <div class="members">
+                        <h2 class="team-description-title">Yury Polevoy</h2>
+                        <h3 class="team-description-sub">CEO & Co-Founder</h3>
+                        <p class="team-description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            At cupiditate eaque ratione similique voluptatem! Ad,
+                            adipisci aspernatur beatae eos facere laudantium mollitia praesentium quaerat,
+                            sed sequi sint sit sunt voluptate?</p>
+                        <a href="#"><img src="images/facebook-btn.png" alt="faceook-btn"/></a>
+                        <a href="#"><img src="images/linked-btn.png" alt="linked"/></a>
+                    </div>
+                    <div class="members-two">
+                        <h2 class="team-description-title">Yauheni Maretski</h2>
+                        <h3 class="team-description-sub">Full Stack Developer</h3>
+                        <p class="team-description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            At cupiditate eaque ratione similique voluptatem! Ad,
+                            adipisci aspernatur beatae eos facere laudantium mollitia praesentium quaerat,
+                            sed sequi sint sit sunt voluptate?facere laudantium mollitia praesentium quaerat,
+                            sed sequi sint sit sunt voluptate?</p>
+                        <a href="#"><img src="images/facebook-btn.png" alt="faceook-btn"/></a>
+                        <a href="#"><img src="images/linked-btn.png" alt="linked"/></a>
+                    </div>
+                    <div class="members-two">
+                        <h2 class="team-description-title">Svetlana </h2>
+                        <h3 class="team-description-sub">Co-Founder</h3>
+                        <p class="team-description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            At cupiditate eaque ratione similique voluptatem! Ad,
+                            adipisci aspernatur beatae eos</p>
+                        <a href="#"><img src="images/facebook-btn.png" alt="faceook-btn"/></a>
+                        <a href="#"><img src="images/linked-btn.png" alt="linked"/></a>
+                    </div>
+                    <div class="members-two">
+                        <h2 class="team-description-title">Unknown Member </h2>
+                        <h3 class="team-description-sub">System Architect</h3>
+                        <p class="team-description-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            At cupiditate eaque ratione similique voluptatem! Ad,
+                            adipisci aspernatur beatae eos.Ad,
+                            adipisci aspernatur beatae eos</p>
+                        <a href="#"><img src="images/facebook-btn.png" alt="faceook-btn"/></a>
+                        <a href="#"><img src="images/linked-btn.png" alt="linked"/></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="about-block feedback-block">
+                <form action="/" method="post" id="form"  >
+                    <div class="left-contact-forms">
+                        <h2>Feedback form</h2>
+                        <input type="text" class="first-name inputs" placeholder="First Name" name="loginname"/>
+                        <input type="text" class="second-name inputs" placeholder="Last Name" name="lastname"/>
+                        <input type="text" class="email-name inputs" placeholder="Email Address" name="mailname"/>
+                        <input type="text" class="phone-name inputs" placeholder="Phone Number" name="telname"/>
+                        <input type="text" class="job-title inputs" placeholder="Job Title  "/>
+                    </div>
+                    <div class="right-contact-forms">
+                        <input type="text" class="company-name inputs" placeholder="Company Name"/>
+                        <section class="main">
+                            <div class="wrapper-demo">
+                                <div id="dd" class="wrapper-dropdown-3" tabindex="1">
+                                    <span class="textinp">Industry</span>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Starup</a></li>
+                                        <li><a href="#">Interprise</a></li>
+                                    </ul>
+                                </div>
+                                ​</div>
+                        </section>
+
+                        <section class="main">
+                            <div class="wrapper-demo">
+                                <div id="ddd" class="wrapper-dropdown-3 wrapper-dropdown-4" tabindex="1">
+                                    <span class="textinp">Prefered TIme</span>
+                                    <ul class="dropdown">
+                                        <li><a href="#">10:00</a></li>
+                                        <li><a href="#">11:00</a></li>
+                                        <li><a href="#">12:00</a></li>
+                                        <li><a href="#">13:00</a></li>
+                                        <li><a href="#">14:00</a></li>
+                                        <li><a href="#">15:00</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <input type="text" id="datepicker" class="inputs">
+                        <input type="submit" class="submit-btn" name="enter" value="Scedule a meeting"></input>
+                    </div>
+                </form>
+            </div>
+
+            <div class="about-block technology-block">
+                <h3 class="tech-title">Technology We Love</h3>
+                <div class="left-tech">
+                    <h4>Opensource</h4>
+                    <p><img src="images/html-5.png" alt="html"/>HTML5</p>
+                    <p><img src="images/css.png" alt="html"/>CSS</p>
+                    <p><img src="images/js.png" alt="html"/>JAVASCRIPT</p>
+                    <p><img src="images/jquery.png" alt="jquery"/>JQUERY</p>
+                    <p><img src="images/json.png" alt="json"/>JSON</p>
+                    <p><img src="images/angular.png" alt="html"/>ANGULAR</p>
+                    <p><img src="images/node.png" alt="html"/>NODE</p>
+                    <p><img src="images/knokuot.png" alt="html"/>KNOKOUT</p>
+                    <p><img src="images/backbone.png" alt="html"/>BACKBONE</p>
+                    <p><img src="images/symphony.png" alt="symphony"/>SYMPHONY</p>
+                    <p><img src="images/ruby.png" alt="ruby"/>RUBY</p>
+                </div>
+                <div class="center-tech">
+                    <h4>Mobile/Tablet</h4>
+                    <p><img src="images/ios.png" alt="ios"/>iOS Native</p>
+                    <p><img src="images/android.png" alt="android"/>Android Native</p>
+                    <p><img src="images/jquery-mobile.png" alt="mobile"/>jQuery Mobile</p>
+                    <h4 class="center-tech-title">Databases</h4>
+                    <p><img src="images/nosql.png" alt="mobile"/>No SQL</p>
+                    <p><img src="images/mysql.png" alt="mysql"/>My SQL</p>
+                    <p><img src="images/sql.png" alt="sql"/>SQL Server</p>
+                    <p><img src="images/mogodb.png" alt="mongodb"/>Mongo DB</p>
+                </div>
+                <div class="right-tech">
+                    <h4>Platforms</h4>
+                    <p><img src="images/wordpress.png" alt="wordpress"/>Wordpress</p>
+                    <p><img src="images/sales.png" alt="wordpress"/>SalesForce</p>
+                    <p><img src="images/share.png" alt="share"/>Sharepoint</p>
+                    <p><img src="images/dot.png" alt="dot"/>ASPDotNet Storefront</p>
+                    <p><img src="images/shopify.png" alt="shopify"/>Shopify</p>
+                    <p><img src="images/big.png" alt="big"/>Big Commerce</p>
+                    <p><img src="images/drupal.png" alt="drupal"/>Drupal</p>
+                    <p><img src="images/amazon.png" alt="amazon"/>Amazon</p>
+                    <p><img src="images/aut.png" alt="aut"/>Authorize.NET</p>
+                    <p><img src="images/payment.png" alt="pay"/>Chase PaymentTech</p>
+                    <p><img src="images/world.png" alt="world"/>WorldPay</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<footer class="site-footer">
+   <span class="footer-copyright">Copyright 2015 SivinTECH. All Rights reselved.</span>
+</footer>
+</body>
+</html>
