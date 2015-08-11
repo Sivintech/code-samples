@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'CDEntities' target in the 'CDEntities' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+
+    #import <CocoaDrops/CDLog.h>
+#endif
